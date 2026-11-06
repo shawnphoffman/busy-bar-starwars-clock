@@ -1,0 +1,9 @@
+{
+  "format_version": 1,
+  "id": "app.shawnhoffman.starwars_clock",
+  "name": "Star Wars Clock",
+  "version": "0.1.0",
+  "api_version": "27.14.0",
+  "description": "A clock set in Star Wars typefaces",
+  "author": "Shawn Hoffman"
+}

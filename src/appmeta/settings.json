@@ -1,0 +1,93 @@
+{
+  "format_version": 1,
+  "version": 2,
+  "fields": {
+    "font": {
+      "type": "enum",
+      "label": "Typeface",
+      "description": "Which Star Wars typeface draws the digits. Cycle rotates through all of them.",
+      "default": "cycle",
+      "options": [
+        {
+          "value": "cycle",
+          "label": "Cycle through all"
+        },
+        {
+          "value": "aldhani",
+          "label": "Aldhani"
+        },
+        {
+          "value": "bazeese",
+          "label": "Bazeese"
+        },
+        {
+          "value": "dixian",
+          "label": "Dixian"
+        },
+        {
+          "value": "ghorelle",
+          "label": "Ghorelle"
+        },
+        {
+          "value": "ninth-vision",
+          "label": "Ninth Vision"
+        },
+        {
+          "value": "star-jedi-redux",
+          "label": "Star Jedi Redux"
+        },
+        {
+          "value": "terabesh",
+          "label": "Terabesh"
+        }
+      ]
+    },
+    "cycle_minutes": {
+      "type": "integer",
+      "label": "Cycle every (minutes)",
+      "description": "How often the typeface changes when cycling.",
+      "default": 5,
+      "min": 1,
+      "max": 240,
+      "step": 1
+    },
+    "style": {
+      "type": "enum",
+      "label": "Colour style",
+      "default": "crawl",
+      "options": [
+        {
+          "value": "crawl",
+          "label": "Opening crawl yellow"
+        },
+        {
+          "value": "saber_blue",
+          "label": "Lightsaber blue"
+        },
+        {
+          "value": "sith_red",
+          "label": "Sith red"
+        },
+        {
+          "value": "hologram",
+          "label": "Hologram cyan"
+        },
+        {
+          "value": "white",
+          "label": "Plain white"
+        }
+      ]
+    },
+    "hour_24": {
+      "type": "boolean",
+      "label": "24-hour clock",
+      "default": false
+    },
+    "blink_colon": {
+      "type": "boolean",
+      "label": "Blink the colon",
+      "description": "Redraws once a second instead of once a minute.",
+      "default": false
+    }
+  }
+}
